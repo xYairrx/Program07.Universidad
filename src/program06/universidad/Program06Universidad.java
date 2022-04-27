@@ -23,6 +23,8 @@ public class Program06Universidad {
         Asignatura asignatura1 = new Asignatura();
         Asignatura asignatura2 = new Asignatura("ADE124", "Programación II", 4, 8);
         
+        Maestro maestro1 = new Maestro();
+        Maestro maestro2 = new Maestro("Ismael");
         
         
     }
