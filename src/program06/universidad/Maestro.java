@@ -11,4 +11,21 @@ package program06.universidad;
  */
 public class Maestro {
     private String nombre;
+
+    public Maestro(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Maestro() {
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    
 }
